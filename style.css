@@ -1,0 +1,59 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+body {
+  background-image: url("");
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#daQuote {
+  width: 75vw;
+  height: auto;
+  padding: 10px 10px 30px 10px;
+  text-align: center;
+  vertical-align: center;
+  border: 0px solid #000;
+  border-radius: 5px;
+  background-color: rgba(220, 220, 220, 0.5);
+  /*background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);*/
+  }
+
+#quoteDisplay {
+  font-family: 'Merienda', cursive;
+  font-size: 1.75rem;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+.footnote {
+  font-size: .7rem;
+}
